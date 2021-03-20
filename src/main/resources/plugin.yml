@@ -1,0 +1,8 @@
+name: rPosePluginAddon
+version: ${project.version}
+main: ru.rey.rposepluginaddon.Core
+api-version: 1.16
+softdepend: [ PosePluginAPI ]
+authors: [ omashune ]
+description: An addon for PosePlugin that allows players to bind /sit to "shift + jump"
+website: https://github.com/omashune
