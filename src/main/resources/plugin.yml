@@ -6,3 +6,5 @@ softdepend: [ PosePluginAPI ]
 authors: [ omashune ]
 description: An addon for PosePlugin that allows players to bind /sit to "shift + jump"
 website: https://github.com/omashune
+commands:
+  shiftsit:
