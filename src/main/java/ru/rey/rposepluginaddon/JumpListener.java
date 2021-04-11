@@ -44,6 +44,7 @@ public class JumpListener implements Listener {
                 IPluginPose pose = PoseBuilder.builder(EnumPose.SITTING).build(p);
 
                 Bukkit.getScheduler().scheduleSyncDelayedTask(Core.getInstance(), () -> {
+                    if (!p.isOnGround()) return;
                     api.getPlayerMap().getPosePluginPlayer(p).changePose(pose);
                 }, 10);
             }
